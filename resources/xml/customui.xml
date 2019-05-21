@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+    <ribbon>
+        <tabs>
+            <tab id="pyro_tab" label="PYRO">
+                <group id="pyro_basics" label="PYRO">
+                    <button id="reload_pyro"   tag="reload_pyro"  onAction="PythonOnAction" label="Reload Addin" size="large" imageMso="AccessRefreshAllLists"/>
+                    <button id="show_console" tag="console"     onAction="PythonOnAction" label="Console" size="large" imageMso="WatchWindow"/>
+                </group>
+                <group id="pyro_actions" label="Actions">
+                    <button id="simple_action" tag="simple_action" onAction="PythonOnAction" label="action"/>
+                </group>
+                <group id="pyro_dialogs" label="Dialogs">
+                    <button id="show_dialog" tag="show_dialog" onAction="PythonOnAction" label="show dialog"/>
+                    <button id="show_frdialog" tag="show_fluent_dialog" onAction="PythonOnAction" label="fluent dialog"/>
+                    <button id="show_mahappsdialog" tag="show_mahappsmetro_dialog" onAction="PythonOnAction" label="MahApps.Metro dialog"/>
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>

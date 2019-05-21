@@ -1,0 +1,10 @@
+REGEDIT4
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Office\PowerPoint\Addins\pyro.AddIn]
+[-HKEY_CURRENT_USER\Software\Microsoft\Office\Excel\Addins\pyro.AddIn]
+[-HKEY_CURRENT_USER\Software\Microsoft\Office\Word\Addins\pyro.AddIn]
+[-HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\Addins\pyro.AddIn]
+[-HKEY_CURRENT_USER\Software\Microsoft\Visio\Addins\pyro.AddIn]
+[-HKEY_CURRENT_USER\Software\Classes\pyro.AddIn]
+[-HKEY_CURRENT_USER\Software\Classes\Wow6432Node\CLSID\{8EA4071E-7BD4-48DA-B96D-21AD02E1C238}]
+[-HKEY_CURRENT_USER\Software\Classes\CLSID\{8EA4071E-7BD4-48DA-B96D-21AD02E1C238}]
